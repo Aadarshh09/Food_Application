@@ -14,7 +14,7 @@ app.use(cors({
 }));
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://gangdevpooniya1115:Gp%407073408522@cluster0.8tupa.mongodb.net/',{
+mongoose.connect('mongodb+srv://adarshpratapsingh5019_db_user:adarshpratapsingh5019_db_user@cluster0.sshy40f.mongodb.net/',{
   dbName: "UserData"
 }).then(() => {
   console.log('Connected to MongoDB');
